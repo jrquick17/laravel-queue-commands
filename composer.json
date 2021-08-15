@@ -1,0 +1,52 @@
+{
+  "name": "jrquick/laravel-queue-commands",
+  "version": "0.0.1",
+  "description": "Helpful Laravel commands to help manage the queue from command line.",
+  "keywords": [
+    "laravel",
+    "command",
+    "artisan",
+    "queue",
+    "development"
+  ],
+  "type": "library",
+  "homepage": "https://github.com/jrquick17/laravel-queue-commands",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jeremy Quick",
+      "email": "jrquick17@gmail.com",
+      "homepage": "https://jrquick.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0",
+    "laravel/framework": "^7.0|^8.0",
+    "illuminate/support": "^7.0|^8.0",
+    "illuminate/console": "^7.0|^8.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^6.0",
+    "phpunit/phpunit": "^9.4",
+    "mockery/mockery": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Jrquick\\QueueCommands\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Jrquick\\QueueCommands\\Tests\\": "tests"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Jrquick\\QueueCommands\\QueueCommandsProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
