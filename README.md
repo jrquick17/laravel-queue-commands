@@ -63,10 +63,6 @@ If you find any issues feel free to open a request in [the Issues tab](https://g
 
 * 
 
-### Release ###
-
-* 
-
-#### Update Changelog ####
+### Update Changelog ###
 
 * Add updates to `CHANGELOG.md` in root.
